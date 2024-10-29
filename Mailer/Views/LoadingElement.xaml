@@ -1,0 +1,16 @@
+﻿<UserControl x:Class="Mailer.LoadingElement"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Mailer"
+             mc:Ignorable="d" 
+             d:DesignHeight="200" d:DesignWidth="300"
+             FontSize="14">
+    <Grid>
+        <TextBlock Name="LoadingText"
+                   FontSize="{Binding FontSize, RelativeSource={RelativeSource AncestorType=UserControl}}"
+                   TextAlignment="Center"
+                   FontWeight="SemiBold"/>
+    </Grid>
+</UserControl>
